@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2017-03-22T10:25:47.752">
+<file name="C:\sw\mars\workspace\FTPClient\src\ftp\FTPClientCommonFactory.java">
+<violation beginline="3" endline="15" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'FTPClientCommonFactory' has a Cyclomatic Complexity of 5 (Highest = 4).
+</violation>
+</file>
+<file name="C:\sw\mars\workspace\FTPClient\src\ftp\FTPClientConnector.java">
+<violation beginline="19" endline="503" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'FTPClientConnector' has a Cyclomatic Complexity of 4 (Highest = 23).
+</violation>
+<violation beginline="69" endline="91" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="FTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'connect' has a Cyclomatic Complexity of 5.
+</violation>
+<violation beginline="138" endline="161" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="FTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'get' has a Cyclomatic Complexity of 6.
+</violation>
+<violation beginline="154" endline="154" begincolumn="64" endcolumn="87" rule="EmptyCatchBlock" ruleset="Basic Rules" package="ftp" class="FTPClientConnector" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="156" endline="158" begincolumn="33" endcolumn="33" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="ftp" class="FTPClientConnector" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="165" endline="185" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="FTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'put' has a Cyclomatic Complexity of 5.
+</violation>
+<violation beginline="183" endline="183" begincolumn="62" endcolumn="85" rule="EmptyCatchBlock" ruleset="Basic Rules" package="ftp" class="FTPClientConnector" method="put" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="338" endline="416" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="FTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'lcd' has a Cyclomatic Complexity of 23.
+</violation>
+<violation beginline="420" endline="493" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="FTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'help' has a Cyclomatic Complexity of 20.
+</violation>
+</file>
+<file name="C:\sw\mars\workspace\FTPClient\src\ftp\SFTPClientConnector.java">
+<violation beginline="20" endline="367" begincolumn="1" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'SFTPClientConnector' has a Cyclomatic Complexity of 3 (Highest = 15).
+</violation>
+<violation beginline="120" endline="155" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="SFTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'get' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="146" endline="146" begincolumn="56" endcolumn="77" rule="EmptyCatchBlock" ruleset="Basic Rules" package="ftp" class="SFTPClientConnector" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="147" endline="147" begincolumn="58" endcolumn="79" rule="EmptyCatchBlock" ruleset="Basic Rules" package="ftp" class="SFTPClientConnector" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="149" endline="151" begincolumn="33" endcolumn="33" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="ftp" class="SFTPClientConnector" method="get" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="159" endline="179" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="SFTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'put' has a Cyclomatic Complexity of 7.
+</violation>
+<violation beginline="176" endline="176" begincolumn="55" endcolumn="78" rule="EmptyCatchBlock" ruleset="Basic Rules" package="ftp" class="SFTPClientConnector" method="put" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="289" endline="304" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="SFTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'lcd' has a Cyclomatic Complexity of 6.
+</violation>
+<violation beginline="308" endline="365" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="ftp" class="SFTPClientConnector" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'help' has a Cyclomatic Complexity of 15.
+</violation>
+</file>
+<file name="C:\sw\mars\workspace\FTPClient\src\main\Main.java">
+<violation beginline="9" endline="137" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="main" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Main' has a Cyclomatic Complexity of 13 (Highest = 30).
+</violation>
+<violation beginline="16" endline="86" begincolumn="23" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="main" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'main' has a Cyclomatic Complexity of 30.
+</violation>
+</file>
+</pmd>
